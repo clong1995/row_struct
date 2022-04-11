@@ -54,9 +54,9 @@ package main
 
 import (
 	"database/sql"
+	"github.com/clong1995/row_struct"
 	_ "github.com/go-sql-driver/mysql"
 	"log"
-	"row_struct"
 	"time"
 )
 
@@ -79,7 +79,7 @@ func main() {
 	//struct字段和查询结果的映射关系
 	type field struct {
 		Id       int64     `field:"id"`
-		Name     string    `field:"name"`
+		Name     bool      `field:"name"`
 		Birthday time.Time `field:"birthday"`
 		Alive    bool      `field:"alive"`
 		Height   float64   `field:"height"`
