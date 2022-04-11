@@ -23,13 +23,13 @@ type field struct {
 
 **数据库和go类型对应关系**  
 
-| golang类型  | mysql类型                              | 
-|-----------|--------------------------------------|
+| golang类型  | mysql类型                                  | 
+|-----------|------------------------------------------|
 | int64     | TINYINT,SMALLINT,INT,BIGINT / (UNSIGNED) | 
-| string    | VARCHAR,TEXT                         | 
-| float64   | DOUBLE                               | 
-| bool      | 数字,字符串,NULL                          | 
-| time.Time | DATE,DATETIME                        | 
+| string    | VARCHAR,TEXT                             | 
+| float64   | DOUBLE                                   | 
+| bool      | 数字,字符串,NULL                              | 
+| time.Time | DATE,DATETIME                            | 
 
 ### 例子
 **表结构**
