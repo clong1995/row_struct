@@ -3,7 +3,7 @@
 ## 使用方法
 
 ### 安装
-
+` go get github.com/clong1995/row_struct`
 ### 说明
 
 **定义要查询结果的结构体**
