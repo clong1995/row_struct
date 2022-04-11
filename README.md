@@ -56,7 +56,7 @@ import (
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
 	"log"
-	"row-struct"
+	"row_struct"
 	"time"
 )
 
